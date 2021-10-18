@@ -40,7 +40,7 @@ usersRouter.post('/login', async (req, res, next) => {
         message: 'Username or password is incorrect'
       });
     }
-  } catch(error) {
+  } catch (error) {
     console.log(error);
     next(error);
   }
